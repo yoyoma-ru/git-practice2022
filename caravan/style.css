@@ -80,7 +80,7 @@ header .headline{
 
 
 main{
-	width: 840px;
+	width: 800px;
 /*	background-color: green;*/
 	margin:0 auto;
 	padding: 70px 0;
@@ -91,14 +91,33 @@ main{
 	margin-right: 30px;
 }
 .blog-headline{
-	border-bottom: 8px solid#7f7f7f;
+	border-bottom: 8px solid #f7f7f7;
 	text-align: center;
 	line-height: 0.6;
 }
+.blog-box{
+	padding-top: 50px;
+}
 .blog-item{
-	padding: 20px;
+	padding-bottom: 20px;
 	margin-bottom: 20px;
 	border-bottom: 1px solid#f7f7f7;
+}
+.blog-image{
+	float: left;
+	height: 180px;
+}
+.blog-text-headline{
+	padding-bottom: 15px;
+	margin: 0;
+}
+.blog-text{
+	float: left;
+	padding: 30px 0 0 25px;
+}
+.blog-date{
+	display: inline-block;
+	font-size: 12px;
 }
 .category{
 	display: inline-block;
@@ -109,7 +128,7 @@ main{
 	font-size: 11px;
 }
 .sidebar{
-	width: 240px;
+	width: 230px;
 	float: left;
 }
 
