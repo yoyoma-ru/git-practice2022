@@ -3,7 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.clearfix{
+.clearfix::after{
 	content: "";
 	display: block;
 	clear: both;
@@ -16,15 +16,48 @@ header{
 }
 
 
+
 .main-box{
+	width: 960px;
 	margin: 50px auto;
-	background-color: yellow;
 }
 .sub-box{
 	width: 300px;
-/*	高さは分かりやすくするために一旦作成*/
-	height: 300px;
-	background-color: red;
+	background-color: #EEE;
+	float: left;
+	padding: 10px;
+	position: relative;
+}
+.sub-box:nth-child(2){
+	margin: 0 30px;
+}
+
+.step-number{
+	background-color: #FF9A4B;
+	color: #FFF;
+	padding: 4px 0 6px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.step-image{
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+}
+.step-image:nth-of-type(1){
+	background-image: url(img/flow01.png);
+}
+.step-image:nth-of-type(2){
+	background-image: url(img/flow02.png);
+}
+.step-image:nth-of-type(3){
+	background-image: url(img/flow03.png);
+}
+.step-title{
+	padding: 15px 0 5px 0;
 }
 
 
